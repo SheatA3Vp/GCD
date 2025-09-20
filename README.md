@@ -1,14 +1,16 @@
 # OOP Lab Work 01: GCD C++ Program
 
-### Lab Work №1 from MAI OOP course 
+## Description
 
-## Goal
+This is Lab Work №1 from the MAI OOP course. The program implements the Greatest Common Divisor (GCD) calculation in C++ using CMake build system and Google Test framework for unit testing.
 
-* Study C++ build systems using CMake
-* Study version control systems Git
-* Study memory management in C++
-* Study input/output operations to the standard stream
-* Study unit testing using the Google Test Framework
+## Goals
+
+- Study C++ build systems using CMake
+- Study version control systems Git
+- Study memory management in C++
+- Study input/output operations to standard streams
+- Study unit testing using Google Test Framework
 
 ## Project Structure
 
@@ -28,32 +30,22 @@ GCD/
     └── lib/                # Compiled libraries
 ```
 
-## Installation Instructions
+## Prerequisites
 
-### Installing a C++ Compiler
+- C++ compiler (gcc 12+ or equivalent)
+- CMake 3.10+
+- Git
 
-Download and install the latest version of C++:
+## Installation
 
-* **Windows**: it is recommended to use [MinGW-w64](https://www.mingw-w64.org/downloads/) or Visual Studio Community
-* **macOS**: it is recommended to install "Xcode" and "Xcode Command Line Tools" from [developer.apple.com](https://developer.apple.com/xcode/)
-* **Linux** (gcc version 12 or higher recommended):
-  ```bash
-  sudo apt update
-  sudo apt install build-essential
-  ```
+Clone the repository:
 
-### Installing CMake
+```bash
+git clone https://github.com/SheatA3Vp/GCD.git
+cd GCD
+```
 
-Download and install the latest version of CMake from [cmake.org](https://cmake.org/download/)
-
-### Installing Git
-
-Download and install the latest version of Git for your operating system from [git-scm.com](https://git-scm.com/downloads)
-
-
-## Building and Running the Project
-
-### Building the Project
+## Building the Project
 
 ```bash
 # Create a build directory
@@ -67,6 +59,8 @@ cmake ..
 cmake --build .
 ```
 
+## Usage
+
 ### Running the Main Program
 
 ```bash
@@ -74,7 +68,9 @@ cmake --build .
 ./Lab01_exe
 ```
 
-### Running the Tests
+The program will prompt for two numbers and compute their GCD.
+
+### Running Tests
 
 ```bash
 # From the build directory
