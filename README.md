@@ -1,2 +1,2 @@
-# LCM
-C++ program to calculate the least common multiple (LCM)
+# GCD
+C++ program to calculate the greatest of all time nums
