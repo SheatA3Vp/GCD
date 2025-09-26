@@ -68,7 +68,13 @@ cmake --build .
 ./Lab01_exe
 ```
 
-The program will prompt for two numbers and compute their GCD.
+The program reads two integers from standard input and outputs their GCD.
+
+Example:
+```
+Input: 48 18
+Output: 6
+```
 
 ### Running Tests
 
